@@ -1,1 +1,3 @@
-# EvalSan
+Official code for the paper ["Evaluating Neural Word Embeddings for Sanskrit"](https://arxiv.org/abs/2104.00270).
+
+## Coming Soon...
