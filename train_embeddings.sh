@@ -11,4 +11,4 @@ echo "Currently FastText in progress..."
 cd ../FastText
 bash word-vector-example.sh
 
-echo "ALBERT and ELMo are shared separately"
+echo "CharLM, ALBERT and ELMo are shared separately"
