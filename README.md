@@ -1,6 +1,6 @@
 Official code for the paper ["Evaluating Neural Word Embeddings for Sanskrit"](https://arxiv.org/abs/2104.00270).
 
-# SanEval: Evaluation Toolkit for Sanskrit Language Word Embeddings
+# SanEval: Evaluation Toolkit for Sanskrit Embeddings
 SanEval is a toolkit for evaluating the quality of Sanskrit embeddings. We assess their generalization power by using them as features on a broad and diverse set of tasks. We include a suite of **4 intrinsic tasks** which evaluate on what linguistic properties are encoded in word embeddings. Our goal is to ease the study and the development of general-purpose fixed-size word representations for Sanskrit.
 
 ## Dependencies
@@ -13,17 +13,17 @@ pip install -r requirements.txt
 ## Evaluation tasks
 
 ### Intrinsic tasks
-* SanEval includes a series of [*Intrinsic* tasks]() to evaluate what linguistic properties are encoded in your word embeddings.
+* SanEval includes a series of *Intrinsic* tasks to evaluate what linguistic properties are encoded in your word embeddings.
 * We use `SLP1` transliteration scheme for our data. You can change it to another scheme using [this](https://colab.research.google.com/drive/1vdrQ8hJjZf-es-34tLHIWP8VBFf-o-fW?usp=sharing) code.
 
 | Task     	| Metric                         	| #dev 	| #test 	|
 |----------	|------------------------------	|-----------:|----------:|
-| [Analogy Syntactic]()	| Accuracy	| na    	| 10k    	|
-| [Analogy Semantic]()	| Accuracy	| na    	| 6.4k    	|
-| [Similarity]()	| Accuracy	| na     	| 3k    	|
-| [Categorization Syntactic]()	| Purity	| na     	| 1.1k    	|
-| [Categorization Semantic]()	| Purity	| na     	| 150    	|
-| [Relatedness]()	| F-score	| 4.5k     	| 9k    	|
+| [Analogy Syntactic](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/final_syntactic_analogies.csv)	| Accuracy	| na    	| 10k    	|
+| [Analogy Semantic](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/Final_semantic_analogies.csv)	| Accuracy	| na    	| 6.4k    	|
+| [Similarity](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/final_synonym_MCQs_AK.csv)	| Accuracy	| na     	| 3k    	|
+| [Categorization Syntactic](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/final_syntactic_categorization.csv)	| Purity	| na     	| 1.1k    	|
+| [Categorization Semantic](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/final_semantic_categorization.csv)	| Purity	| na     	| 150    	|
+| [Relatedness](https://github.com/Jivnesh/EvalSan/blob/main/evaluations/Intrinsic/Data/automated_relatedness_AK_test.csv)	| F-score	| 4.5k     	| 9k    	|
 
 ## How to train the models
 Please refer to the `models` folder for more details.

@@ -11,6 +11,4 @@ echo "Currently FastText in progress..."
 cd ../FastText
 bash word-vector-example.sh
 
-echo "Currently Node2Vec in progress..."
-cd ../Node2Vec
-python main.py
+echo "ALBERT and ELMo are shared separately"
