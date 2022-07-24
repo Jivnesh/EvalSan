@@ -54,5 +54,5 @@ If you use our tool, we'd appreciate if you cite the following paper:
       primaryClass={cs.CL}
 }
 ```
-## Licence
+## License
 This project is licensed under the terms of the `Apache license 2.0`.
