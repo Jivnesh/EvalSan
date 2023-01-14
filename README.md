@@ -1,4 +1,4 @@
-Official code for the paper ["Evaluating Neural Word Embeddings for Sanskrit"](https://arxiv.org/abs/2104.00270).
+Official code for the paper ["Evaluating Neural Word Embeddings for Sanskrit"](https://aclanthology.org/2023.wsc-csdh.2/).
 
 # EvalSan: Evaluation Toolkit for Sanskrit Embeddings
 SanEval is a toolkit for evaluating the quality of Sanskrit embeddings. We assess their generalization power by using them as features on a broad and diverse set of tasks. We include a suite of **4 intrinsic tasks** which evaluate on what linguistic properties are encoded in word embeddings. Our goal is to ease the study and the development of general-purpose fixed-size word representations for Sanskrit.
@@ -45,14 +45,22 @@ bash run_SanEval.sh
 ## Citation
 If you use our tool, we'd appreciate if you cite the following paper:
 ```
-@misc{sandhan2021evaluating,
-      title={Evaluating Neural Word Embeddings for Sanskrit}, 
-      author={Jivnesh Sandhan and Om Adideva and Digumarthi Komal and Laxmidhar Behera and Pawan Goyal},
-      year={2021},
-      eprint={2104.00270},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{sandhan-etal-2023-evaluating,
+    title = "Evaluating Neural Word Embeddings for {S}anskrit",
+    author = "Sandhan, Jivnesh  and
+      Paranjay, Om Adideva  and
+      Digumarthi, Komal  and
+      Behra, Laxmidhar  and
+      Goyal, Pawan",
+    booktitle = "Proceedings of the Computational {S}anskrit {\&} Digital Humanities: Selected papers presented at the 18th World {S}anskrit Conference",
+    month = jan,
+    year = "2023",
+    address = "Canberra, Australia (Online mode)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wsc-csdh.2",
+    pages = "21--37",
 }
+
 ```
 ## License
 This project is licensed under the terms of the `Apache license 2.0`.
